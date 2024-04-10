@@ -15,5 +15,5 @@
         sudo dnf install -y qemu-kvm libvirt virt-install virt-viewer
         sudo systemctl enable libvirtd --now
         ```
-    * Enable PCI pass-through to allow attaching a GPU to a VM - add `intel_iommu=on` to the host's (boot arguments)[https://access.redhat.com/solutions/6668601].
-    * (Update KVM/libvirt permission)[https://ostechnix.com/solved-cannot-access-storage-file-permission-denied-error-in-kvm-libvirt/]
+    * Enable PCI pass-through to allow attaching a GPU to a VM - add `intel_iommu=on` to the host's [boot arguments](https://access.redhat.com/solutions/6668601).
+    * [Update KVM/libvirt permission](https://ostechnix.com/solved-cannot-access-storage-file-permission-denied-error-in-kvm-libvirt/).

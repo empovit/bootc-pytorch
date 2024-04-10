@@ -2,8 +2,8 @@
 
 set -e
 
-RHSM_ORG_FILE=./rhsm_org
-RHSM_ACTIVATIONKEY_FILE=./rhsm_activationkey
+RHSM_ORG_FILE=.rhsm_org
+RHSM_ACTIVATIONKEY_FILE=.rhsm_activationkey
 IMAGE_NAME=quay.io/vemporop/bootc:9.4-pytorch
 
 podman build \

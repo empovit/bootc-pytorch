@@ -1,3 +1,4 @@
 .rhsm*
 temp/
 output/
+*.log

@@ -1,0 +1,16 @@
+{
+    "blueprint": {
+      "customizations": {
+        "user": [
+          {
+            "name": "admin",
+            "password": "admin",
+            "key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJDdZCX3m3Z1gPeovUsM3Rg6tNNNJsGNqyfYw42jX7Mp admin",
+            "groups": [
+              "wheel"
+            ]
+          }
+        ]
+      }
+    }
+  }

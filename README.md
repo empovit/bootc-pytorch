@@ -4,6 +4,7 @@
 
 * https://bootc-org.gitlab.io/documentation/
 * https://github.com/osbuild/bootc-image-builder
+* https://github.com/fabiendupont/rhel-bootc-nvidia
 
 ## Prerequisites
 
